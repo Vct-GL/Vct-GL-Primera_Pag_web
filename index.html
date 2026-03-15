@@ -10,8 +10,10 @@
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f2f5; /* Un gris muy claro, más pro que el blanco puro */
-            color: #333;
+            /* Fondo gris oscuro muy pro */
+            background-color: #121212; 
+            /* Letras blancas para que se lea perfecto */
+            color: #ffffff; 
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -19,33 +21,41 @@
             min-height: 100vh;
         }
         .container {
-            background-color: white;
+            /* Tarjeta en un gris un poco más claro para que resalte del fondo */
+            background-color: #1e1e1e; 
             padding: 40px;
             border-radius: 15px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* Sombra suave */
+            /* Sombra negra profunda */
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5); 
             max-width: 500px;
             text-align: center;
         }
         h1 {
-            color: #2563eb; /* Un azul moderno */
+            /* Título en rojo vibrante */
+            color: #ff4d4d; 
             margin-bottom: 10px;
         }
         p {
             line-height: 1.6;
-            color: #666;
+            /* Texto secundario en un blanco grisáceo para no cansar la vista */
+            color: #b0b0b0; 
         }
         .btn {
             display: inline-block;
             margin-top: 20px;
             padding: 10px 25px;
-            background-color: #2563eb;
+            /* Botón rojo */
+            background-color: #ff4d4d; 
             color: white;
             text-decoration: none;
             border-radius: 5px;
-            transition: background 0.3s;
+            transition: all 0.3s;
+            font-weight: 600;
         }
         .btn:hover {
-            background-color: #1d4ed8;
+            /* Rojo más oscuro al pasar el mouse */
+            background-color: #cc0000; 
+            transform: translateY(-3px);
         }
     </style>
 </head>
