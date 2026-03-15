@@ -14,7 +14,7 @@
 
 ## 🔗 Enlaces Importantes
 * **🌐 Ver mi página en vivo:** [Haz clic aquí](https://vct-gl.github.io/Vct-GL-Primera_Pag_web/)
-* **👨‍💻 Mi Perfil de GitHub:** [vct-gl](https://github.com/vct-gl)
+* **😎💻 Mi Perfil de GitHub:** [vct-gl](https://github.com/vct-gl)
 
 ---
 
